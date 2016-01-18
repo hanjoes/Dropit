@@ -17,12 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WTL-IO-2o4">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WTL-IO-2o4" customClass="BezierUIView" customModule="DropIt" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="AGc-6X-hpo" appends="YES" id="4DH-cY-5aE"/>
+                                    <outletCollection property="gestureRecognizers" destination="AFJ-Bc-e67" appends="YES" id="5GR-ie-djX"/>
                                 </connections>
                             </view>
                         </subviews>
@@ -44,6 +45,11 @@
                         <action selector="drop:" destination="BYZ-38-t0r" id="lBw-Wf-Zta"/>
                     </connections>
                 </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="AFJ-Bc-e67">
+                    <connections>
+                        <action selector="grabDrop:" destination="BYZ-38-t0r" id="vhq-mm-JJ8"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="573" y="474"/>
         </scene>

@@ -15,6 +15,7 @@
 		DB2A261D1C492FAC0006AA97 /* DropItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A261C1C492FAC0006AA97 /* DropItUITests.swift */; };
 		DB2A262C1C4930020006AA97 /* DropitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A262B1C4930020006AA97 /* DropitViewController.swift */; };
 		DB2A262E1C4938380006AA97 /* DropitBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A262D1C4938380006AA97 /* DropitBehavior.swift */; };
+		DB684A351C4AA10600F82B1A /* BezierUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB684A341C4AA10600F82B1A /* BezierUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DB2A261E1C492FAC0006AA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB2A262B1C4930020006AA97 /* DropitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitViewController.swift; sourceTree = "<group>"; };
 		DB2A262D1C4938380006AA97 /* DropitBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitBehavior.swift; sourceTree = "<group>"; };
+		DB684A341C4AA10600F82B1A /* BezierUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DB2A262A1C492FC50006AA97 /* Supporting Files */,
 				DB2A262B1C4930020006AA97 /* DropitViewController.swift */,
 				DB2A262D1C4938380006AA97 /* DropitBehavior.swift */,
+				DB684A341C4AA10600F82B1A /* BezierUIView.swift */,
 			);
 			path = DropIt;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				DB2A262C1C4930020006AA97 /* DropitViewController.swift in Sources */,
 				DB2A25FD1C492FAC0006AA97 /* AppDelegate.swift in Sources */,
 				DB2A262E1C4938380006AA97 /* DropitBehavior.swift in Sources */,
+				DB684A351C4AA10600F82B1A /* BezierUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +503,7 @@
 				DB2A26231C492FAC0006AA97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB2A26241C492FAC0006AA97 /* Build configuration list for PBXNativeTarget "DropItTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +512,7 @@
 				DB2A26261C492FAC0006AA97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB2A26271C492FAC0006AA97 /* Build configuration list for PBXNativeTarget "DropItUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				DB2A26291C492FAC0006AA97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
